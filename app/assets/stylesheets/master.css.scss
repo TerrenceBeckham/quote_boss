@@ -2,7 +2,6 @@
 @import "bootstrap";
 
 
-
 .clear { 
   clear:both;
  }
@@ -46,7 +45,15 @@
     border-bottom: 1px solid #236E87;
 }
  
+h1 {
+    font-family: 'Ubuntu Condensed', sans-serif;
 
+}
+
+h2 {
+ font-family: 'Ubuntu Condensed', sans-serif;
+
+}
 
 header {
     border-top: 9px solid #222222;
@@ -55,5 +62,5 @@ header {
 
 hr {
     clear:  both;
-    
+
 }
