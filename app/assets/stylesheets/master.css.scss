@@ -1,7 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-
 .clear { 
   clear:both;
  }
@@ -16,6 +15,18 @@
     font-style: italic;
     padding-top: 26px;
 
+}
+.footer-blurb{
+    /* Traditional Garamond-based serif stack */
+    font-family: "Palatino Linotype", Palatino, 
+    Palladio, "URW Palladio L", "Book Antiqua", 
+    Baskerville, "Bookman Old Style", "Bitstream Charter", 
+    "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", 
+    "New Century Schoolbook", "Century Schoolbook", 
+    "Century Schoolbook L", Georgia, serif;
+    font-style: italic;
+    text-align: right;
+    font-size: 10px;
 }
 .circle {
     font-weight:bold;
@@ -46,12 +57,12 @@
 }
  
 h1 {
-    font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
 
 }
 
 h2 {
- font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
 
 }
 
@@ -63,4 +74,10 @@ header {
 hr {
     clear:  both;
 
+}
+
+.next-quote {
+    color: #f84342;
+    font-family: sans-serif;
+    font-size: 20px;
 }
