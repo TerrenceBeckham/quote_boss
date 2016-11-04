@@ -1,35 +1,30 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+.clear {
+    clear: both;
+}
 
-.clear { 
-  clear:both;
- }
+.logo:hover {
+    text-decoration: none;
+}
+
 .slogan {
- /* Traditional Garamond-based serif stack */
-    font-family: "Palatino Linotype", Palatino, 
-    Palladio, "URW Palladio L", "Book Antiqua", 
-    Baskerville, "Bookman Old Style", "Bitstream Charter", 
-    "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", 
-    "New Century Schoolbook", "Century Schoolbook", 
-    "Century Schoolbook L", Georgia, serif;
+    /* Traditional Garamond-based serif stack */
+    font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
     font-style: italic;
     padding-top: 26px;
-
 }
-.footer-blurb{
+
+.footer-blurb {
     /* Traditional Garamond-based serif stack */
-    font-family: "Palatino Linotype", Palatino, 
-    Palladio, "URW Palladio L", "Book Antiqua", 
-    Baskerville, "Bookman Old Style", "Bitstream Charter", 
-    "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", 
-    "New Century Schoolbook", "Century Schoolbook", 
-    "Century Schoolbook L", Georgia, serif;
+    font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
     font-style: italic;
     text-align: right;
     font-size: 10px;
 }
+
 .circle {
-    font-weight:bold;
+    font-weight: bold;
     font-style: italic;
     position: relative;
     border-radius: 100%;
@@ -43,37 +38,37 @@
     font-size: 10px;
     line-height: 16px;
     cursor: pointer;
-    transform:rotate(11deg);
-    -ms-transform:rotate(11deg); /* IE 9 */
-    -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
+    transform: rotate(11deg);
+    -ms-transform: rotate(11deg);
+    /* IE 9 */
+    -webkit-transform: rotate(11deg);
+    /* Opera, Chrome, and Safari */
 }
+
 .links {
-    padding-top:26px;
+    padding-top: 26px;
 }
+
 .links a {
-    color:black;
+    color: black;
     font-size: 26px;
     border-bottom: 1px solid #236E87;
 }
- 
+
 h1 {
     font-family: 'Ubuntu Mono', monospace;
-
 }
 
 h2 {
     font-family: 'Ubuntu Mono', monospace;
-
 }
 
 header {
     border-top: 9px solid #222222;
 }
 
-
 hr {
-    clear:  both;
-
+    clear: both;
 }
 
 .next-quote {

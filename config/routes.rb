@@ -14,6 +14,7 @@ QuoteBoss::Application.routes.draw do
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
 root 'quotes#index'
+resources :quotes
   
 
   # Example resource route with options:
