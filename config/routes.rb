@@ -13,9 +13,18 @@ QuoteBoss::Application.routes.draw do
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
-root 'quotes#index'
-resources :quotes
+
   
+
+
+
+  Rails.application.routes.draw do
+    root 'quotes#index'
+    resources :quotes
+    get 'about', to: 'quotes#about'
+
+    # a bunch of other stuff
+  end
 
   # Example resource route with options:
   #   resources :products do
